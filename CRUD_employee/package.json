@@ -1,0 +1,21 @@
+{
+  "name": "employee-crud-app",
+  "version": "1.0.0",
+  "description": "Node.js CRUD app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
