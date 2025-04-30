@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("./partials/head.ejs") %>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <%- include("./partials/navbar.ejs") %>
+
+    <!-- Page Header-->
+    <%- include("./partials/header.ejs") %>
+
+    <!-- Main Content-->
+    <%- include(pageContent) %>
+
+    <!-- Footer-->
+    <%- include("./partials/footer.ejs") %>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
